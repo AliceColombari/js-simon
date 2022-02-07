@@ -1,5 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #041631;
+    font-family: sans-serif;
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    color: #84a59d;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 70px;
+    background-color: #6BDD73;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h3 {
+    margin: 20px 0px;
+    color: #fff;
+}
+
+.alert-secondi-tot {
+    color: #6BDD73;
+}
+
+#container-game, 
+#numeri-ricordati {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.numeri {
+    background-color: #6BDD73;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.hidden {
+    display: none;
 }
